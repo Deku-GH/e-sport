@@ -618,7 +618,7 @@ text-align: center;
 .recrutement-h
 {
     font-size: 50px;
-    background: linear-gradient(90deg,#00ffff 0%,#FF00FF 100%);
+       background: #0B0F28;
    
     border-radius: 10px 10px 0px 0px;
 }
@@ -667,8 +667,8 @@ padding-top: 0%;
 }
 .form-recrutement
 {
-    border: #000000 1px solid;
-  border-radius: 7px;
+    border: #000000 0px solid;
+  border-radius: 0px 0px 7px 7px ;
   background:  #0F1329 ;
  
 }
