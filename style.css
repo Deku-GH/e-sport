@@ -446,10 +446,7 @@ text-align: center;
     transform: scale(1.05);
     /* box-shadow: #00FFFF 12px 12px 10px; */
 }
-.profil-card
-{
-   
-}
+
 
 
 .profil-game-1{
@@ -585,7 +582,8 @@ text-align: center;
     justify-content: center;
    text-align: center;
    color: aliceblue;
-   height: 600px;
+   padding: 20px;
+   height: 700px;
      /* background: linear-gradient(90deg,#00ffff 0%,#FF00FF 100%);
    */
 
@@ -616,6 +614,7 @@ text-align: center;
     margin-left:1% ;
     height: 40px;
 }
+
 .recrutement-h
 {
     font-size: 50px;
@@ -672,4 +671,19 @@ padding-top: 0%;
   border-radius: 7px;
   background:  #0F1329 ;
  
+}
+.btn-recrutement
+{
+     text-decoration: none;
+     color: #000000;
+     border: 1px white solid;
+     border-radius: 15px;
+     width: 200px;
+     background: #00FFFF;
+    margin:0% auto ;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 35px;
+    margin-bottom: 20px;
+
 }
