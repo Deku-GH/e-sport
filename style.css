@@ -6,7 +6,12 @@
 
 }
 
-
+body
+{
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+   background: radial-gradient(84.8% 150.76% at 20% 50%, rgba(0, 255, 255, 0.15) 0%, rgba(0, 255, 255, 0) 50%), radial-gradient(91.79% 163.18% at 80% 80%, rgba(255, 0, 255, 0.15) 0%, rgba(255, 0, 255, 0) 50%), linear-gradient(180deg, #0A0E27 0%, #1A1F3A 100%);
+}
 
 nav {
     display: flex;
@@ -48,6 +53,7 @@ nav {
     color: antiquewhite;
 }
 
+
 .il {
     display: flex;
     justify-content: space-between;
@@ -63,11 +69,12 @@ nav {
     height: 40px;
     padding: 10px;
     margin: -15px;
+  
 }
 
 section {
-    display: flex;
-    background: radial-gradient(84.8% 150.76% at 20% 50%, rgba(0, 255, 255, 0.15) 0%, rgba(0, 255, 255, 0) 50%), radial-gradient(91.79% 163.18% at 80% 80%, rgba(255, 0, 255, 0.15) 0%, rgba(255, 0, 255, 0) 50%), linear-gradient(180deg, #0A0E27 0%, #1A1F3A 100%);
+    
+    
 
     height: 500px;
     /* padding-top: 40px ;
@@ -75,6 +82,7 @@ section {
 
 
 }
+
 
 .one-piece {
     display: block;
@@ -144,6 +152,7 @@ footer {
 
     display: block;
     background: #0A0E27;
+    margin-top: 20%;
     margin-bottom: 0px;
     height: 400px;
 }
@@ -253,6 +262,8 @@ footer {
     margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -390,4 +401,275 @@ footer {
     
      transform: scale(1.25);
     box-shadow: 10px 10px 10px  #00FFFF;
+}
+
+
+
+
+
+
+
+
+
+.profil-card-section{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+}
+
+
+
+
+.profil-card{
+
+ display: inline-block;
+ 
+ justify-content: center;
+text-align: center;
+
+ padding: 10px;
+ /* border: 3px solid #00FFFF; */
+
+    
+}
+ .profil-card > div {
+     /* background-color: #0A0E27; */
+   border: 3px solid #00FFFF;
+  border-radius: 25px;
+  padding: 30px;
+  font-size: 20px;
+  text-align: center
+} 
+.profil-card :hover
+{
+    transform: scale(1.05);
+    /* box-shadow: #00FFFF 12px 12px 10px; */
+}
+.profil-card
+{
+   
+}
+
+
+.profil-game-1{
+    border: red 3px solid;
+   
+    border-radius: 20px;
+    background: rgb(137, 3, 3);
+    
+     color: red;
+    align-items: center;
+}
+/*  */
+
+
+.profil-game-2{
+    border: rgb(3, 17, 110) 3px solid;
+   
+    border-radius: 20px;
+    background: rgb(43, 20, 128);
+    
+     color: blue;
+    align-items: center;
+}
+
+
+.profil-game-3{
+    border: red 3px solid;
+   
+    border-radius: 20px;
+    background: rgb(137, 3, 3);
+    
+     color: red;
+    align-items: center;
+    padding: 4px;
+    
+}
+
+
+.profil-game-4{
+    border: rgb(161, 123, 0) 3px solid;
+   
+    border-radius: 20px;
+    background: rgba(185, 198, 10, 0.605);
+    
+     color: rgb(208, 255, 0);
+    align-items: center;
+}
+
+
+.profil-game-5{
+    border: red 3px solid;
+   
+    border-radius: 20px;
+    background: rgb(137, 3, 3);
+    
+     color: red;
+    align-items: center;
+}
+
+.profil-game-6{
+    border: red 3px solid;
+   
+    border-radius: 20px;
+    background: rgb(137, 3, 3);
+    
+     color: red;
+    align-items: center;
+}
+/*  */
+
+.profil-name{
+    color: white;
+}
+.profil-imag img{
+    border: #00FFFF solid 5px;
+    border-radius: 100%;
+}
+.profil-btn
+{
+     border:#0A0E27 3px solid;
+    border-radius: 10px;
+    background: #00FFFF;
+    color:black;
+    
+    
+}
+.profil-btn a{
+    text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.title-page-joueur
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+.profil-rank
+{
+    color: #00FFFF;
+    margin: 5%;
+}
+  .profil-card-section
+  {
+    height: 500px;
+  }
+.btn-nav
+{
+    color: black;
+}
+.stat
+{
+    color: white;
+    margin-bottom: 10%;
+}
+ 
+
+.div-line
+{
+    margin-top: 16px;
+    width: 100px;
+    height: 4px;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(90deg,#00ffff 0%,#FF00FF 100%);
+}
+.section-recrutement
+{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   color: aliceblue;
+   height: 600px;
+     /* background: linear-gradient(90deg,#00ffff 0%,#FF00FF 100%);
+   */
+
+}
+.form-recrutement
+{
+ display: flex;
+ flex-direction:column ;
+ 
+
+ width: 800px;
+ /* justify-content: center; */
+
+ 
+
+}
+.form-recrutement input{
+    /* font-size: 30px; */
+    
+    border: #ffffff 1px solid;
+    border-radius: 10px;
+    background: b;
+    height: 30px;
+    margin-bottom:10%;
+    color: white;
+    background: #0B0F28;
+    width:750px;
+    margin-left:1% ;
+    height: 40px;
+}
+.recrutement-h
+{
+    font-size: 50px;
+    background: linear-gradient(90deg,#00ffff 0%,#FF00FF 100%);
+   
+    border-radius: 10px 10px 0px 0px;
+}
+.form-recrutement label
+{
+    font-size: 20px;
+    justify-content: left;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 2%;
+   
+    /* margin-top: 4%; */
+    margin-bottom: 3%;
+}
+.option-recrutement{
+    font-size: 20px;
+    justify-content: left;
+    justify-content: space-between;
+    text-align: left;
+   
+     border: #ffffff 1px solid;
+    border-radius: 10px;
+    background: b;
+    
+    margin-bottom:10%;
+margin-left:2%;
+    color: white;
+    background: #0B0F28;
+    width:750px;
+    height: 40px;
+}
+
+#discription
+{
+    margin-bottom:0%;
+  margin-top: 0%;
+  margin-left: 2%;
+   width: 700px;
+  height: 180px;
+    background: #0B0F28;
+color:white;
+padding-top: 0%;
+  text-decoration-style: none;
+  border: #ffffff 2px solid;
+  border-radius: 15px;
+}
+.form-recrutement
+{
+    border: #000000 1px solid;
+  border-radius: 7px;
+  background:  #0F1329 ;
+ 
 }
