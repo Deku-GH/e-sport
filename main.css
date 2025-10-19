@@ -705,3 +705,62 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+.profil-card-section {
+  display: block;
+  /* justify-content: space-around; */
+  margin: 10% auto;
+
+
+
+}
+.profil-card-div{
+  display: block;
+ justify-content: space-around;
+
+ margin: 1% auto ;
+
+ 
+
+}
+
+.profil-card-div{
+  display: flex;
+ 
+border: #00ffff 2px solid;
+
+ 
+
+}
+.stat
+{
+  border-left: #ffffff 2px solid;
+  
+
+
+
+}
+.profil-imag
+{
+  border-right: #ffffff 2px solid;
+padding: 0%;
+}
+.profil-rank  {
+ 
+  display: block;
+  
+
+
+ 
+}
+.stat-1
+{ 
+  display: flex;
+   padding-right: 30%;
+ 
+
+}
